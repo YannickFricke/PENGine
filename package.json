@@ -3,9 +3,16 @@
 	"version": "0.0.0",
 	"license": "MIT",
 	"private": true,
+	"workspaces": [
+		"./packages/apps/",
+		"./packages/libs/"
+	],
 	"scripts": {},
 	"dependencies": {},
 	"devDependencies": {
-		"@changesets/cli": "^2.22.0"
+		"@changesets/cli": "^2.22.0",
+		"@packagaya/cli": "^1.1.5",
+		"@packagaya/ts-adapter": "^1.5.2",
+		"@packagaya/vscode-adapter": "^1.0.1"
 	}
 }
