@@ -11,6 +11,10 @@
 		{
 			"name": "Logging",
 			"path": "./packages/libs/logging"
+		},
+		{
+			"name": "Game",
+			"path": "./packages/libs/game"
 		}
 	]
 }
