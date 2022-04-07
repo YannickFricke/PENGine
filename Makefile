@@ -1,7 +1,9 @@
 .PHONY: clear \
 		install \
 		changeset \
-		docs
+		docs \
+		qa \
+		fix-qa
 
 clear:
 	cls || clear
@@ -14,3 +16,9 @@ changeset: clear
 
 docs:
 	typedoc --options ./typedoc.json
+
+qa: clear
+	yarn run packagaya sync info
+
+fix-qa: clear
+	yarn run packagaya sync execute
