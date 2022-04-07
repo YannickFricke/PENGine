@@ -1,0 +1,9 @@
+{
+	"name": "@pengine/root",
+	"version": "0.0.0",
+	"license": "MIT",
+	"private": true,
+	"scripts": {},
+	"dependencies": {},
+	"devDependencies": {}
+}
