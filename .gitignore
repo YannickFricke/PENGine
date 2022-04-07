@@ -3,3 +3,7 @@ node_modules/
 
 # Ignore the typedoc output
 docs/
+
+# Ignore the TypeScript output
+dist/
+tsconfig.tsbuildinfo
