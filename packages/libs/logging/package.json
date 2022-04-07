@@ -1,0 +1,13 @@
+{
+    "name": "@pengine/logging",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc --watch"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^4.6.3"
+    }
+}
