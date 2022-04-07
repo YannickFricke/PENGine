@@ -3,6 +3,10 @@
 		{
 			"name": "Root",
 			"path": "./"
+		},
+		{
+			"name": "Logging",
+			"path": "./packages/libs/logging"
 		}
 	]
 }
