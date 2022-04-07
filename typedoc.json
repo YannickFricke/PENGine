@@ -1,0 +1,8 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"entryPoints": ["./packages/libs/logging/src/index.ts"],
+	"out": "./docs/",
+	"tsconfig": "./tsconfig.base.json",
+	"theme": "default",
+	"darkHighlightTheme": "dark-plus"
+}

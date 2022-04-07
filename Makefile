@@ -1,6 +1,7 @@
 .PHONY: clear \
 		install \
-		changeset
+		changeset \
+		docs
 
 clear:
 	cls || clear
@@ -10,3 +11,6 @@ install:
 
 changeset: clear
 	yarn run changeset
+
+docs:
+	typedoc --options ./typedoc.json
