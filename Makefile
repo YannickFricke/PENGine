@@ -8,5 +8,5 @@ clear:
 install:
 	yarn install
 
-changeset:
+changeset: clear
 	yarn run changeset
