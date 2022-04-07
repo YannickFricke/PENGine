@@ -1,19 +1,20 @@
 {
-    "name": "@pengine/logging",
-    "version": "0.1.0",
-    "license": "MIT",
-    "scripts": {
-        "build": "tsc",
-        "build:watch": "tsc --watch"
-    },
-    "dependencies": {
-        "debug": "^4.3.4"
-    },
-    "devDependencies": {
-        "@types/debug": "^4.1.7",
-        "@types/jest": "^27.4.1",
-        "jest": "^27.5.1",
-        "ts-jest": "^27.1.4",
-        "typescript": "^4.6.3"
-    }
+	"name": "@pengine/logging",
+	"version": "0.1.0",
+	"license": "MIT",
+	"main": "./src/index.ts",
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --watch"
+	},
+	"dependencies": {
+		"debug": "^4.3.4"
+	},
+	"devDependencies": {
+		"@types/debug": "^4.1.7",
+		"@types/jest": "^27.4.1",
+		"jest": "^27.5.1",
+		"ts-jest": "^27.1.4",
+		"typescript": "^4.6.3"
+	}
 }
