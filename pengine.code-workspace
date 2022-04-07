@@ -5,6 +5,10 @@
 			"path": "./"
 		},
 		{
+			"name": "Changesets",
+			"path": "./.changeset/"
+		},
+		{
 			"name": "Logging",
 			"path": "./packages/libs/logging"
 		}
