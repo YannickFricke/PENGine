@@ -8,7 +8,8 @@
 		"./packages/libs/*"
 	],
 	"scripts": {
-		"make:docs": "typedoc --options ./typedoc.json"
+		"make:docs": "typedoc --options ./typedoc.json",
+		"prepare": "husky install"
 	},
 	"dependencies": {},
 	"devDependencies": {
@@ -16,6 +17,12 @@
 		"@packagaya/cli": "^1.1.5",
 		"@packagaya/ts-adapter": "^1.5.2",
 		"@packagaya/vscode-adapter": "^1.0.1",
+		"husky": ">=6",
+		"lint-staged": ">=10",
+		"prettier": "^2.6.2",
 		"typedoc": "^0.22.14"
+	},
+	"lint-staged": {
+		"*.{js,jsx,ts,tsx,md,json}": "prettier --write"
 	}
 }
