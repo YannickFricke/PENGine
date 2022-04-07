@@ -1,0 +1,24 @@
+name: Generate documentation
+
+on:
+    push:
+        branches:
+            - develop
+
+jobs:
+    deploy_docs:
+        runs-on: ubuntu-20.04
+        concurrency:
+            group: ${{ github.workflow }}-${{ github.ref }}
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: '14'
+            - run: yarn install
+            - run: yarn run make:docs
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./docs
