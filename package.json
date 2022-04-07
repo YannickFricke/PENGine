@@ -7,7 +7,9 @@
 		"./packages/apps/*",
 		"./packages/libs/*"
 	],
-	"scripts": {},
+	"scripts": {
+		"make:docs": "typedoc --options ./typedoc.json"
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"@changesets/cli": "^2.22.0",

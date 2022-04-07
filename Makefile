@@ -15,7 +15,7 @@ changeset: clear
 	yarn run changeset
 
 docs:
-	typedoc --options ./typedoc.json
+	yarn run make:docs
 
 qa: clear
 	yarn run packagaya sync info
