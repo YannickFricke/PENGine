@@ -1,6 +1,7 @@
 {
 	"$schema": "https://typedoc.org/schema.json",
-	"entryPoints": ["./packages/libs/logging/src/index.ts"],
+	"entryPoints": ["./packages/libs/logging/", "./packages/libs/game/"],
+	"entryPointStrategy": "Packages",
 	"out": "./docs/",
 	"tsconfig": "./tsconfig.base.json",
 	"theme": "default",
