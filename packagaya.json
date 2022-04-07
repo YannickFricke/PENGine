@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Packagaya/Packagaya/develop/packages/libs/config/src/ConfigSchema.json",
+	"apps": ["packages/apps/"],
+	"libs": ["packages/libs/"],
+	"adapters": ["@packagaya/ts-adapter", "@packagaya/vscode-adapter"],
+	"features": [
+		[
+			"sync-ts-deps",
+			{
+				"installAlwaysLatestVersion": false,
+				"blacklist": ["jest", "ts-jest"]
+			}
+		],
+		"sync-ts-paths",
+		[
+			"sync-vscode-workspaces",
+			{
+				"workspaceFile": "./pengine.code-workspace"
+			}
+		]
+	]
+}
