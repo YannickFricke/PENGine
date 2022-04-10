@@ -6,12 +6,12 @@
  */
 export enum Dimensions {
 	/**
-	 * Defines a two dimensional dimension
+	 * Defines a dimension with two coordinates
 	 */
 	Two = 2,
 
 	/**
-	 * Defines a three dimensional dimension
+	 * Defines a dimension with three coordinates
 	 */
 	Three = 3,
 }
