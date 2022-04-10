@@ -1,0 +1,16 @@
+{
+	"name": "@pengine/utils",
+	"version": "0.0.0",
+	"license": "MIT",
+	"main": "./src/index.ts",
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --watch"
+	},
+	"dependencies": {
+		"ts-deepmerge": "^2.0.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.6.3"
+	}
+}

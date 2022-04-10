@@ -3,7 +3,8 @@
 	"entryPoints": [
 		"./packages/libs/game/",
 		"./packages/libs/logging/",
-		"./packages/libs/types/"
+		"./packages/libs/types/",
+		"./packages/libs/utils/"
 	],
 	"entryPointStrategy": "Packages",
 	"out": "./docs/",
