@@ -30,4 +30,10 @@ describe('getRandomBetween', () => {
 			expect(getRandomBetween(1, 10)).toEqual(10);
 		});
 	});
+
+	it('should return a float number when the returnFloat argument is true', () => {
+		withMockedRandom(0.5)(() => {
+			expect(getRandomBetween(25, 50, true)).toEqual(37.5);
+		});
+	});
 });
