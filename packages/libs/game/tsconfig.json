@@ -4,9 +4,15 @@
 		"composite": true,
 		"rootDir": "./src/",
 		"baseUrl": "./",
-		"paths": {},
+		"paths": {
+			"@pengine/logging/*": ["../logging/*"]
+		},
 		"declarationDir": "./dist/",
 		"outDir": "./dist/"
 	},
-	"references": []
+	"references": [
+		{
+			"path": "../logging/tsconfig.json"
+		}
+	]
 }
