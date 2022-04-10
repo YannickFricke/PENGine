@@ -5,6 +5,9 @@ import { createLogger } from '@pengine/logging';
  * Defines the basic game options which are extended by the dimensional game options.
  *
  * ATTENTION: You should never rely directly on this interface!
+ *
+ * @see {@link TwoDimensionalGameOptions}
+ * @see {@link ThreeDimensionalGameOptions}
  */
 export type BaseGameOptions = {
 	/**
