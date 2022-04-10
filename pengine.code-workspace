@@ -9,6 +9,10 @@
 			"path": "./.changeset/"
 		},
 		{
+			"name": "Types",
+			"path": "./packages/libs/types"
+		},
+		{
 			"name": "Logging",
 			"path": "./packages/libs/logging"
 		},
