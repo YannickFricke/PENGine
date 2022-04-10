@@ -21,7 +21,7 @@
 			"path": "./packages/libs/game"
 		},
 		{
-			"name": "utils",
+			"name": "Utils",
 			"path": "./packages/libs/utils"
 		}
 	]
